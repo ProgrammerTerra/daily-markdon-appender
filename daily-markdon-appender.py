@@ -35,6 +35,5 @@ with open('___PATH TO FILE___', 'r+') as f:
         f.write("- Added on Sunday \n")
         f.write("- Example \n")
     
-    f.write("- \n")
-        
-    f.write(content)
+    f.write("- \n" + content)
+    
